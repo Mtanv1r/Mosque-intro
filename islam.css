@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7vw;
+     /* background-color: rgb(128, 208, 228);  */
+
+}
+#logo{
+    font-size: 7vw;
+   padding-left: 4vw;
+   color: rgb(0, 0, 0);
+  
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  background-color: rgb(128, 208, 228); 
+    margin-right: 3vw;
+    border-radius: 9px;
+    
+
+}
+.menu li a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+.menu li{
+      list-style: none;   
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5vw;
+    font-size: 2vw;
+    padding-right: 4vw;
+    padding-left: 2vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+#icon{
+    color:rgb(255, 255, 255);
+    font-size: 2vw;
+    padding-right: 4vw;
+          
+}
+/* the mosque article code */
+h1{
+ font-family: "Solitreo", cursive;
+  font-weight: 800;
+  font-style: normal;
+  color:rgb(255, 26, 159);
+  margin-left: 3vw;
+  /* font-size: 5vw; */
+}
+article p{
+   font-family: "Solitreo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 4vh;
+  color:rgb(121, 119, 119);
+   margin-left: 3vw;
+}
+/* ----------------------- */
+/* button coding */
+#b1{
+    border: none;
+    background-color:rgb(255, 26, 159);
+    width:12vw;
+    border-radius: 8px;
+    padding:1vw; 
+    margin-left: 3vw;  
+    margin-top: 2vw;  
+}
+#b1 a{
+    text-decoration: none;
+    color:white;
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+   
+}
+/* button2 */
+#b2{
+    border: none;
+    background-color:rgb(0, 0, 0);
+    width:12vw;
+    border-radius: 8px;
+    padding:1vw; 
+     margin-left: 3vw;
+     margin-top: 2vw;    
+}
+#b2 a{
+    text-decoration: none;
+    color:white;
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 15px; 
+    /* margin-left: 2vw; */
+   
+}
+/* ------------------------- */
+/* mosque image  */
+.mspic{
+    height: 500px;
+    width: 500px;
+    background-image: url(mosque.png);
+    background-size: cover;
+    transform:scaleX(-1);
+    margin-left: 10vw;
+
+}
+/* main flex */
+main{
+    display: flex;
+    align-items: center;
+}
+#paragraph{
+    /* background-color: red; */
+    width:50vw;
+
+   
+}
+.mosqueimg{
+    /* background-color: aquamarine; */
+    width: 50vw;
+    margin-left:10vw; }
+
+    /* mosque png ending */
+/* footer start  */
+footer {
+    width:100%;
+    height:15vh;
+    background-color: rgb(128, 208, 228);
+    border-top:2px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-icon{
+     /* background-color: rebeccapurple;  */
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+.footer-link{
+      /* background-color: rgb(209, 133, 156);   */
+    display: flex;
+    justify-content: space-evenly;
+    /* padding:3vw; */
+    width: 15vw;  
+}
+.footer-link p a{
+    text-decoration: none;
+    /* gap:5vw; */
+    color:rgb(133, 126, 126);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#ico{
+    font-size: 1.5rem;
+    
+}
+
